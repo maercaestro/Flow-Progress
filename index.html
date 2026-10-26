@@ -73,6 +73,8 @@ body{background:#090D0D;color:var(--warm);font-family:"Helvetica Neue",Arial,san
 .cover-rule{position:absolute;left:66px;top:563px;width:620px;height:1px;margin:0;background:#F0EDE449}
 .cover-names{position:absolute;left:69px;top:592px;color:var(--warm);font-size:18px;font-weight:400;line-height:1.7;letter-spacing:.015em}
 .cover-names::before{content:"PRESENTED BY";display:block;color:#8E9E94;font:10px monospace;letter-spacing:.15em;margin-bottom:8px}
+.cover-partners{position:absolute;left:390px;top:592px;margin:0;color:var(--warm);font-size:18px;line-height:1.7;letter-spacing:.015em}
+.cover-partners strong{display:block;color:#8E9E94;font:10px monospace;letter-spacing:.15em;margin-bottom:8px}
 .cover-art{position:absolute;right:22px;top:80px;width:650px;height:650px;pointer-events:none}
 .cover-orbit{position:absolute;inset:39px;border:1px solid #D3FD6038;border-radius:50%;transform:rotate(-31deg) scaleX(.57)}
 .cover-orbit:nth-child(2){transform:rotate(31deg) scaleX(.57)}
@@ -224,6 +226,7 @@ body.capture .viewport{outline:0}
   body:not(.capture) .cover h1{order:2;font-size:clamp(64px,18vw,120px);line-height:.95;letter-spacing:-.075em;margin:0}
   body:not(.capture) .cover-rule{order:3;height:1px;margin:0}
   body:not(.capture) .cover-names{order:4;font-size:18px;line-height:1.65;margin:0}
+  body:not(.capture) .cover-partners{position:static;order:5;font-size:18px;line-height:1.65;margin:0}
   body:not(.capture) .cover-art{position:relative;inset:auto;width:min(100%,320px);height:auto;aspect-ratio:1;align-self:center;margin:0}
   body:not(.capture) .cover-orbit{inset:6%}
   body:not(.capture) .cover-orbit:nth-child(4){inset:17.7%}
@@ -308,6 +311,7 @@ body.capture .viewport{outline:0}
 <h1><span>Progress</span> <span>Pitch.</span></h1>
 <div class="cover-rule" aria-hidden="true"></div>
 <p class="cover-names">Abu Huzaifah Bidin<br/>Syafri M Yunus</p>
+<p class="cover-partners"><strong>PART-TIME PARTNERS</strong>Jamalee Bashah<br/>M Haniff Nasir</p>
 </div>
 <div class="cover-art" aria-hidden="true"><div class="cover-orbit"></div><div class="cover-orbit"></div><div class="cover-orbit"></div><div class="cover-orbit"></div><div class="cover-core"></div><div class="orbit-point"></div><span class="orbit-caption">OBSERVE / QUESTION / REFRAME</span></div>
 <div class="cover-side" aria-hidden="true">FLOW / PROGRESS IN MOTION</div>
